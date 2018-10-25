@@ -1,2 +1,2 @@
 # code-golf
-Code Golf Programs
+List of Code Golf programs written by me
