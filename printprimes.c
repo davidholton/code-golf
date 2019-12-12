@@ -11,4 +11,4 @@
   121 bytes with gcc 8.3
 */
 
-int i,n,j;main(int c,char**v){sscanf(v[1],"%d",&n);for(;i<n;i++){j=1;for(;i%++j&&j*j<i;);if(i<3?i:i%j)printf("%d\n",i);}}
+int i,n,j;main(int c,char**v){sscanf(v[1],"%d",&n);for(;i<=n;i++){j=1;for(;i%++j&&j*j<i;);if(i<3?i:i%j)printf("%d\n",i);}}
